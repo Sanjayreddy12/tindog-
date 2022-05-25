@@ -1,0 +1,196 @@
+#title {
+  background-color: #ff4c68;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 0;
+}
+
+.col-lg-6 {
+  padding-top: 4.5rem;
+}
+
+.col-lg-6 img {
+  /* transform: rotate(25deg); */
+  width: 60%;
+}
+
+/* navigation BAR */
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* BUTTONS */
+.download {
+  margin: 5% 3% 5% 0;
+}
+
+/* fa */
+.fa-solid {
+  color: #ef8172;
+  line-height: 1.5;
+}
+
+.fa-solid:hover {
+  color: #ff4c68;
+}
+
+.col-lg-4 {
+  text-align: center;
+}
+
+/* features */
+#features {
+  padding: 5% 5% 0;
+}
+
+.col-lg-4 h3 {
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.col-lg-4 p {
+  color: #8f8f8f;
+  padding: 20px;
+  padding-top: 0;
+}
+
+.feature {
+  margin: 7% 15%;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+#testimonials img {
+  border-radius: 50%;
+  width: 20%;
+  padding-bottom: 15px;
+}
+
+#testimonials em {
+  font-size: 1.2rem;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.press {
+  width: 15%;
+  margin: 20px 30px 0 30px;
+}
+
+/* pricing */
+#pricing {
+  margin: 7% 7%;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+.sign-up{
+ margin: 58px auto 0;
+}
+
+@media (max-width:992px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    transform: rotate(0);
+  }
+  #cta h3{
+    width: 80%;
+  }
+}
+@media (max-width:1113px) and (min-width:992px){
+  .title-image{
+
+  }
+}
+@media (max-width:767px){
+  #cta h3{
+    width:90%;
+    padding:5% auto;
+  }
+}
+
+
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  height:400px;
+
+}
+.cta{
+  padding: auto 7%;
+}
+.cta h3{
+  font-family:Montserrat;
+  font-size: 3rem;
+  font-weight:bold;
+  padding:4% 8% 0;
+  color: #fff;
+  width: 65%;
+  margin: 0 auto;
+
+}
+.fa-envelope{
+  color: #000;
+}
+#footer{
+  text-align: center;
+  margin: 5% 30%;
+}
+#footer i{
+  margin:20px;
+}
+#footer .fa-solid:hover{
+  color:#ff4c68;
+}
+#footer p{
+  font-family: Montserrat;
+  font-size: 1.2rem;
+}
